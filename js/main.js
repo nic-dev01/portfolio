@@ -155,3 +155,31 @@ $(window).load(function(){
   });
 
 });
+
+
+
+// connecting email to my email
+
+emailjs.send(serviceID, templateID, templateParams, publicKey);
+
+var templateParams = {
+  name: 'James',
+  notes: 'Check this out!'
+};
+
+emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+  .then(function(response) {
+     console.log('SUCCESS!', response.status, response.text);
+  }, function(error) {
+     console.log('FAILED...', error);
+  });
+
+
+  emailjs.sendForm(serviceID, templateID, templateParams, publicKey);
+  
+  emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', '#myForm')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
