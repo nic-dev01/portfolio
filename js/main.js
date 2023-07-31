@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Nico Lorenzo Cruz.", "your Front end Developer.", " a Freelancer.", "an artist."],
+      strings: ["Nico Lorenzo Cruz.", "your Web Developer.", " a Freelancer.", "an artist."],
       typeSpeed: 50,
       loop: true,
     });
@@ -98,7 +98,7 @@ $(document).ready(function() {
       dots: true,
       nav: false,
       responsiveClass: true,
-      responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
+      responsive: { 0: { items: 1 }, 769: { items: 2 }, 950: { items: 4 } }
     });
 
   // ========================================================================= //
@@ -155,3 +155,5 @@ $(window).load(function(){
   });
 
 });
+
+// dark mode 

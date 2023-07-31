@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-  margin-top: 100px;
+  margin-top: 45px;
 }
 
 h2 {
@@ -185,7 +185,7 @@ nav {
   background: #fff;
   z-index: 1000;
   width: 100%;
-  padding: 22px;
+  padding: 23px;
   display: none;
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
@@ -197,6 +197,8 @@ nav {
   line-height: 32px;
   margin-bottom: 0;
   padding-top: 16px;
+  position: relative;
+  right: 280px;
 }
 
 nav ul li {
@@ -295,7 +297,8 @@ nav ul li a {
   width: 100%;
   height: auto;
   background: #f7f7f7;
-  padding-top: 190px;
+  padding-top: 130px;
+  padding-bottom: 3rem;
 }
 
 #about .div-img-bg {
@@ -331,7 +334,8 @@ nav ul li a {
 #services {
   background: #f7f7f7;
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
+  padding-top: 1px;
 }
 
 .owl-item {
@@ -638,3 +642,90 @@ nav ul li a {
 #sample {
   height: 200px;
 }
+
+
+
+.butun {
+  background-color: transparent;
+  border: inset;
+  color: rgb(255, 255, 255);
+  padding: 15px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+.md.hydrated {
+  font-size: 40px;
+  color: #b8a07e;
+}
+
+/* =============================================================================================== */
+
+/* additional css */
+.mid-about {
+  text-align: center;
+  margin: 6rem;
+
+}
+
+
+.btstrp{
+  width: 110px;
+}
+
+.services-carousel.owl-theme.owl-loaded.owl-drag {
+  cursor: pointer;
+  }
+
+.logs{
+  width: 160px;
+}
+
+.cs {
+  width: 110px;
+}
+
+.bts{
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+}
+
+.js{
+  width: 80px;
+}
+
+.nod{
+  width: 140px;
+  position: relative;
+  bottom: 12px;
+}
+
+.tail{
+  width: 180px;
+  position: relative;
+  top: 25px;
+}
+
+h4 {
+  color: #f4f2f2;
+  font-size: 62px;
+  font-weight: 600;
+  position: relative;
+  top: 40px;
+  }
+
+  .react {
+    width: 120px;
+    position: relative;
+    top: 10px;
+  }
+
+  .php{
+    width: 140px;
+    position: relative;
+    top: 15px;
+  }
