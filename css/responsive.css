@@ -95,9 +95,13 @@
 
 .owl-stage-outer {
 position: relative;
-left: 3rem;
+left: 250px;
 }
 
+.owl-dot {
+  position: relative;
+  right: 25px;
+}
 }
 /** Width between 767px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -178,18 +182,18 @@ left: 3rem;
   display: table-caption;
 
 }
-.knows {
-position: relative;
-
-}
 
 
 /* carousel */
 .owl-stage-outer {
 position: relative;
-left: 160px;
+left: 90px;
 }
 
+.owl-dot {
+  position: relative;
+  right: 25px;
+}
 
 }
 
@@ -334,6 +338,34 @@ left: 160px;
     float: none;
     display: inline-block;
   }
+
+
+/* carousel */
+.owl-stage-outer {
+  position: relative;
+  left: 50px;
+  overflow: hidden;
+  }
+
+.mid-about{
+  font-size: 30px;
+}
+
+.typed{
+  font-size: 15px;
+}
+.im {
+  font-size: 15px !important;
+}
+
+h4{
+  font-size: 30px;
+}
+
+.header-content{
+  position: relative;
+  top: 30px;
+}
 }
 
 
@@ -410,4 +442,7 @@ left: 160px;
     display: inline-block;
     margin-right: 0;
   }
+
+
+
 }

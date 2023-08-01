@@ -734,3 +734,8 @@ h4 {
     position: relative;
     top: 15px;
   }
+
+  .owl-dot {
+    position: relative;
+    right: 50px;
+  }
