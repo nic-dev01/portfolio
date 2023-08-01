@@ -366,13 +366,17 @@ h4{
   position: relative;
   top: 30px;
 }
-#main-nav{
-  width: 100%;
-}
+
 .owl-stage-outer {
   overflow: hidden !important;
   width: 200px;
   }
+
+  .nav-menu.list-unstyled {
+    position: relative;
+    left: 10px;
+    }
+
 
 }
 
