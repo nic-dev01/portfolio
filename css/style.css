@@ -335,7 +335,7 @@ nav ul li a {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 100px;
-  padding-top: 1px;
+  padding-top: 100px;
 }
 
 .owl-item {
@@ -649,7 +649,7 @@ nav ul li a {
   background-color: transparent;
   border: inset;
   color: rgb(255, 255, 255);
-  padding: 15px 13px;
+  padding: 15px 14px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -665,19 +665,24 @@ nav ul li a {
 /* =============================================================================================== */
 
 /* additional css */
-.mid-about {
-  text-align: center;
-  margin: 6rem;
+.mid {
+  text-align:center;
 
 }
-
-
+.mid-about{
+  text-align: center;
+  margin: 0;
+}
 .btstrp{
   width: 110px;
 }
 
 .services-carousel.owl-theme.owl-loaded.owl-drag {
   cursor: pointer;
+  position: relative;
+  top: 100px;
+  padding-bottom: 6rem;
+  left: 30px;
   }
 
 .logs{

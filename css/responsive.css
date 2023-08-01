@@ -3,7 +3,7 @@
  */
 
 @media (min-width: 1200px) {
-
+  
 }
 
 /** Width between 992px to 1199px
@@ -11,7 +11,8 @@
  */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  
+ 
+    
 }
 
 /** Width between 768px to 991px
@@ -83,8 +84,21 @@
     float: none;
     display: inline-block;
   }
+
+/* heading carousel */
+.mid {
+  text-align: -webkit-center;
+  }
+.mid-about {
+  margin-top: 5rem;
 }
 
+.owl-stage-outer {
+position: relative;
+left: 3rem;
+}
+
+}
 /** Width between 767px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
@@ -154,6 +168,29 @@
     float: none;
     display: inline-block;
   }
+
+/* carousel header */
+.mid{
+  text-align: -webkit-center;
+}
+
+.mid-about {
+  display: table-caption;
+
+}
+.knows {
+position: relative;
+
+}
+
+
+/* carousel */
+.owl-stage-outer {
+position: relative;
+left: 160px;
+}
+
+
 }
 
 /** Width between 600px to 0
@@ -225,6 +262,8 @@
     float: none;
     display: inline-block;
   }
+
+
 }
 
 /** Width between 480px to 0
@@ -296,6 +335,7 @@
     display: inline-block;
   }
 }
+
 
 /** Width between 320px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
