@@ -675,6 +675,8 @@ nav ul li a {
 }
 .btstrp{
   width: 110px;
+  position: relative;
+  left: 30px;
 }
 
 .services-carousel.owl-theme.owl-loaded.owl-drag {
@@ -691,28 +693,37 @@ nav ul li a {
 
 .cs {
   width: 110px;
+  position: relative;
+  left: 20px;
 }
 
 .bts{
   font-weight: bolder;
   font-size: 20px;
   color: black;
+  position: relative;
+  left: 30px;
 }
 
 .js{
   width: 80px;
+  position: relative;
+  left: 60px;
 }
 
 .nod{
   width: 140px;
   position: relative;
   bottom: 20px;
+  right: -50px;
 }
 
 .tail{
   width: 180px;
   position: relative;
   top: 25px;
+  left: -20px;
+  
 }
 
 .ps {
@@ -725,7 +736,7 @@ nav ul li a {
   width: 100px;
   position: relative;
   top: 15px;
-  left: 15px;
+  left: 20px;
 }
 
 h4 {
@@ -740,12 +751,14 @@ h4 {
     width: 120px;
     position: relative;
     top: 10px;
+    left: 40px;
   }
 
   .php{
     width: 140px;
     position: relative;
     top: 15px;
+    right: -50px;
   }
 
   .owl-dot {

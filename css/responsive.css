@@ -188,14 +188,54 @@ left: 250px;
 /* carousel */
 .owl-stage-outer {
 position: relative;
-left: 160px;
+left: 130px;
 }
 
 .owl-dot {
   position: relative;
   right: 35px;
 }
+.tail{
+  width: 180px;
+  position: relative;
+  top: 25px;
+  left: 20px;
+  
+}
 
+.logs{
+  position: relative;
+  left: 25px;
+}
+
+.cs {
+  width: 110px;
+  position: relative;
+  left: 40px;
+}
+.nod {
+  position: relative;
+  left: 30px;
+}
+
+.pr {
+position: relative;
+left: 50px;
+}
+
+.ps {
+  position: relative;
+  left: 30px;
+}
+
+.btstrp {
+  position: relative;
+  left: 40px;
+}
+.bts {
+  position: relative;
+  left: 40px ;
+}
 }
 
 /** Width between 600px to 0
