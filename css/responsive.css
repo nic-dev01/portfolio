@@ -181,18 +181,19 @@ left: 250px;
 .mid-about {
   display: table-caption;
 
+
 }
 
 
 /* carousel */
 .owl-stage-outer {
 position: relative;
-left: 90px;
+left: 160px;
 }
 
 .owl-dot {
   position: relative;
-  right: 25px;
+  right: 35px;
 }
 
 }

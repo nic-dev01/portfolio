@@ -225,14 +225,14 @@ nav ul li a {
 
 .logo {
   float: left;
+  position: relative;
+  right: 50px;
 }
 
 .logo img {
-  width: 100px;
-  height: 20px;
-  margin-top: 15px;
+  width: 64px;
+  height: 40px;
   }
-
 .responsive {
   display: none;
   font-size: 23px;
@@ -706,13 +706,26 @@ nav ul li a {
 .nod{
   width: 140px;
   position: relative;
-  bottom: 12px;
+  bottom: 20px;
 }
 
 .tail{
   width: 180px;
   position: relative;
   top: 25px;
+}
+
+.ps {
+  width: 160px;
+  position: relative;
+  top: 5px;
+}
+
+.pr {
+  width: 100px;
+  position: relative;
+  top: 15px;
+  left: 15px;
 }
 
 h4 {
