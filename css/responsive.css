@@ -11,7 +11,9 @@
  */
 
 @media (min-width: 992px) and (max-width: 1199px) {
- 
+ .nav-menu {
+  right: 180px;
+ }
     
 }
 
@@ -183,7 +185,12 @@ left: 250px;
 
 
 }
-
+.container {
+  width: 100%;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /* carousel */
 .owl-stage-outer {
@@ -236,6 +243,18 @@ left: 50px;
   position: relative;
   left: 40px ;
 }
+
+.logo img {
+  position: relative;
+  left: 40px;
+}
+
+i.ion-navicon-round {
+  position: relative;
+  right: 20px;
+}
+
+
 }
 
 /** Width between 600px to 0
@@ -418,7 +437,7 @@ h4{
     left: 10px;
     }
 
-
+   
 }
 
 
@@ -512,4 +531,12 @@ h4{
       font-size: 20px;
     }
 
+    .owl-stage-outer {
+      width: 100%;
+  }
+  
+  i.ion-navicon-round {
+    position: relative;
+    right: 30px;
+}
 }
