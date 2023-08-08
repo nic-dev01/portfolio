@@ -104,6 +104,10 @@ left: 250px;
   position: relative;
   right: 25px;
 }
+
+.logo {
+  left: 2px;
+}
 }
 /** Width between 767px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
