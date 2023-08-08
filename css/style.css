@@ -765,3 +765,9 @@ h4 {
     position: relative;
     right: 50px;
   }
+
+
+  .portfolio-list {
+    position: relative;
+    left: 30px;
+    }
